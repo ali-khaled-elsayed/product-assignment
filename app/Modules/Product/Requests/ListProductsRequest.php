@@ -8,7 +8,9 @@ class ListProductsRequest extends BaseGetRequestValidator
 {
     public function rules(): array
     {
-        $rules = [];
+        $rules = [
+            //
+        ];
         return array_merge(parent::rules(), $rules);
     }
 }
